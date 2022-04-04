@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+@media (max-width: 718px){
+    header{
+        flex-direction: column;
+    }
+}
+header div {
+    flex-flow: row;
+    display: inline-flex;
+}
+@media (max-width: 718px){
+    header div {
+        margin: 0 auto;
+    }
+}
+
+header div a {
+    display: inline;
+    background-color:white;
+    border: 2px solid grey;
+    text-decoration: none;
+}
+header nav p {
+    display: inline-block;
+    text-align: center;
+}
+.Top-Bar {
+    margin: 0 0;
+}
+@media (max-width: 718px){
+    .Top-Bar {
+        margin: 0 auto;
+    }
+}
+.logo-img {
+    width: 200px;
+    min-width: 100px;
+    padding: 0.5rem;
+}
+.header-logo-link{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    border: none;
+}
+.top-bar-content {
+    font-size: large;
+    padding: .5rem 1rem;
+    margin: 1rem;
+}
+.Top-Bar img {
+    object-fit: cover;
+}
+#Necklace-Img {
+    width: 100%;
+    height: 35rem;
+    object-fit:cover;
+    object-position: 0 100%;
+    
+}
+#necklace-description {
+    background-color: rgb(197, 181, 127);
+    padding: 2rem;
+    width: 100%;
+}
+#necklace-description h1{
+    font-size: x-large;
+    display: inline ;
+}
+#necklace-description p {
+    font-size: larger;
+    display: inline;
+}
+
+#location {
+    margin-left: 2rem;
+    width: 100%;
+}
+#location p {
+    width: 10%;
+    background-color: green;
+}
+#business-description {
+    margin-top: 2rem;
+    display: flex;
+    width: 100vw;
+    justify-content: left;
+    flex-direction: row;
+}
+#business-description h3 {
+    font-style: italic;
+}
+#business-description figure {
+    margin: 0;
+    padding: 0;
+    width: 45%;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+#jewellery-preview {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    width: 80%;
+    clear: both;
+}
+#jewellery-preview h1{
+    text-align: center;
+}
+#jewellery-preview article {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+#jewellery-preview img {
+    width: 25%;
+    height: 22rem;
+    object-fit:cover;
+    object-position: 0 10%;
+    border-radius: 10%;
+}
+#jewellery-preview h3 {
+    margin-top: 2rem;
+    float: right;
+    font-style: italic;
+}
+#divider2 {
+    margin-top: 12rem;
+}
+
+#book-now-text{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+#book-now-text p {
+    width: 310px;
+    margin: 0 auto;
+    font-size: larger;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+@media (max-width: 718px){
+    footer{
+        background-color: red;
+        flex-direction: column;
+    }
+}
+footer div a {
+    background-color:white;
+    border: 2px solid grey;
+    text-decoration: none;
+}
+footer nav p {
+    display: inline-block;
+}
+.nav-bar-content {
+    font-size: 5em          ;
+    overflow: hidden;
+    font-size: large;
+    padding: .5rem 1rem;
+    margin: 1rem;
+    line-height: 2rem;
+    font-weight: bolder;
+}
+
+footer nav figcaption {
+    font-weight: bolder;
+}
+
+#history {
+    text-align: center;
+    font-size: larger;
+}
+#gallery-display{
+    margin: 0 auto;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-items: center;
+}
+#gallery-display h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4em;
+    font-style: italic;
+}
+#gallery-display div {
+    text-align: center;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+#gallery-display div h3 {
+    font-style: normal;
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+}
+#gallery-display div img{
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+#gallery-display div img{
+    text-align: center;
+    caption-side: bottom;
+}
+main {
+    margin: 0 auto;
+    width: 80vw;
+    display: block;
+}
+.enquiries_text_bold {
+    padding-left: 2rem;
+    font-size: larger;
+}
+.enquiries_text {
+    padding-left: 2rem  ;
+    font-size: larger;
+}
+
+main form {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5rem;
+    width: 80%;
+}   
+
+main form input {
+    display: block;
+    margin-bottom: 1rem;
+}
+main form textarea {
+    display: block;
+    margin-bottom: 1rem;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
